@@ -1,0 +1,29 @@
+Es importante usar los siguientes FS al iniciar el servidor:
+
+- GM, tiene los mapeos, y todo sistema "streamer" del servidor, esencial.
+
+- G1, G2, no son necesario. Cada uno es un Globo que sale de la Isla Premium y rodea la ciudad.
+
+- ISLA, es la Isla Premium, activar en caso de tener G1 y G2 en uso.
+
+- FBI, es el nuevo mapeado del FBI.
+
+- BeachS, ascensor del edificio agregado en el 0.3.7.
+
+- ParkS, ascensor del edificio cerca del Skate Park, en los Santos.
+
+- RusosX, ascensor único para el búnker de la facción Rusos. (Salisa subterranéa).
+
+- Shamal, interior a este vehículo (Presionando G).
+
+- Carteles, son los carteles dentro del servidor con publicidad. (Rol de LSTV).
+
+- DisparosV, al disparar un vehículo este perderá vida.
+
+- Headshot, activar el modo Headshot, cualquier arma hacia la cabeza será muerte directa. (Activar en eventos).
+
+- Carrera, FS de eventos.
+
+- Control1/Control2 - Maps de control de velocidad. (Para evitar Bad Drive).
+
+NOTA: Resto de FS de Pawnoscript o incluidos con la GM base. Para más información abrirlos con Pawno.

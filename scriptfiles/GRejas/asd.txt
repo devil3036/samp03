@@ -1,0 +1,19 @@
+Agregar Arriba de Todo
+new Reja1;
+ 
+Agregar en OnGameModeInit()
+Reja1 = CreateObject(969,1641.612426,-1730.081909,13.382812,0.000000,0.000000,0.000000);
+ 
+Comando para Abrir:
+if(strcmp("/abrirpuerta", cmdtext, true, 10) == 0)
+{
+	MoveObject(Reja1,1641.612426,-1730.081909,8.882812,2.5);
+	return 1;
+}
+ 
+Comando para Cerrar:
+if(strcmp("/cerrarpuerta", cmdtext, true, 10) == 0)
+{
+	MoveObject(Reja1,1641.612426,-1730.081909,13.382812,2.5);
+	return 1;
+}
